@@ -1,4 +1,4 @@
-# naive_bayesian_classification_for_sentiment_analysis
+# Naive Bayesian Classification for Sentiment Analysis
 Implementation of a Naive Bayes Classifier that can categorize movie reviews as positive or negative based on the text in the review. 
 
 
