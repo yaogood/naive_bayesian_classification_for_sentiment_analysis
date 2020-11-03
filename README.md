@@ -23,7 +23,7 @@ Ways to improve the classifer are included:
 
 The probability of a review being positive given a set of features $f$ can be calculated as:
 
-$$P(positive \ | \ f) = P(positive) * \prod^n_{i=1} P(f_i \ | \ positive)$$
+$P(positive \ | \ f) = P(positive) * \prod^n_{i=1} P(f_i \ | \ positive)$
 
 Since probabilities can become very small, the product of these numbers can result in underflow. To get around this, use *log-probabilities* (in which case products become sums).
 
